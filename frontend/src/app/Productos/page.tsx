@@ -10,21 +10,21 @@ export default function ProductosHome() {
       title: "Balón de Gas 10kg",
       description: "Ideal para uso doméstico con seguridad garantizada y máxima eficiencia energética.",
       price: 45.9,
-      imageUrl: "/productos/balon10kg.jpg",
+      imageUrl: "/images/10k.PNG",
       features: ["Para hogares", "Seguro y confiable", "Fácil transporte"]
     },
     {
       title: "Balón de Gas 15kg",
       description: "Perfecto para negocios pequeños y medianos con mayor duración y rendimiento.",
       price: 65.0,
-      imageUrl: "/productos/balon15kg.jpg",
+      imageUrl: "/images/15k.png",
       features: ["Para pequeños negocios", "Mayor capacidad", "Económico a largo plazo"]
     },
     {
-      title: "Gas Industrial",
+      title: "Balón de Gas 45kg",
       description: "Solución profesional para procesos industriales de alto consumo y demanda continua.",
       price: 120.0,
-      imageUrl: "/productos/gasindustrial.jpg",
+      imageUrl: "/images/45k.PNG",
       features: ["Para empresas", "Alto rendimiento", "Entrega programada"]
     },
   ];

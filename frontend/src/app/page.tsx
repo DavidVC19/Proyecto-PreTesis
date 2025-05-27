@@ -36,7 +36,7 @@ export default function Home() {
         <section className="relative h-[500px]">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-green-900/80 z-10"></div>
           <Image
-            src="/images/hero-bg.jpg"
+            src="/images/z.jpg"
             alt="Zeta Gas Valle Jequetepeque"
             layout="fill"
             objectFit="cover"
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row items-center gap-12">
               <div className="lg:w-1/2">
                 <Image
-                  src="/images/about-us.jpg"
+                  src="/images/z.jpg"
                   alt="Sobre Zeta Gas"
                   width={600}
                   height={400}

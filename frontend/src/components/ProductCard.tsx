@@ -18,14 +18,22 @@ export default function ProductCard({
 }: ProductCardProps) {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
-      <div className="w-full h-56 relative">
-        <Image
-          src={imageUrl}
-          alt={title}
-          layout="fill"
-          objectFit="cover"
-          className="hover:scale-105 transition duration-500"
-        />
+      <div className="w-full h-56 relative overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+          <Image
+            src={imageUrl}
+            alt={title}
+            width={300}
+            height={300}
+            className="object-contain max-h-full max-w-full p-4"
+            style={{
+              width: 'auto',
+              height: 'auto',
+              maxWidth: '100%',
+              maxHeight: '100%'
+            }}
+          />
+        </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/70 to-transparent"></div>
       </div>
       
